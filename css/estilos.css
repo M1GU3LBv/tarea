@@ -121,3 +121,126 @@ footer h2{
     line-height: 97px;
 
 }
+@media screen and (max-width:1366px){
+	body {
+		font-size:90%; 
+	} 
+    #contenedor {
+        width: 1267px;
+        height: 669px;
+        margin-top: 10px;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    
+    #contenedor2 {
+        height: 120px;
+        width: 1267px;
+    
+    
+    }
+    
+    header {
+    
+        width: 1134px;
+        height: 120px;
+        background: blue;
+        float: right;
+    
+    }
+    
+    header h1 {
+        text-align: center;
+        line-height: 120px;
+    }
+    
+    #parte1 {
+        background-color: rgb(59, 59, 59);
+        height: 71px;
+        width: 777px;
+        margin-top: 10px;
+        float: left;
+    }
+    
+    #parte1 h2 {
+        text-align: center;
+        line-height: 71px;
+        
+    }
+    #parte2 {
+        background-color: darkgrey;
+        height: 71px;
+        width: 479px;
+        float: right;
+        margin-top: 10px;
+      
+    }
+    
+    #parte2 h2 {
+        text-align: center;
+      
+        line-height: 71px;
+    }
+    article{
+        background-color: blanchedalmond;
+        height: 346px;
+        width: 777px;
+        float: left;
+        margin-top: 10px;
+    }
+    #noticias{
+        background-color: aquamarine;
+        height: 65px;
+        width: 479px;
+        float: right;
+        margin-top:10px;
+        
+    
+    }
+    #noticias h2{
+        text-align: center;
+       
+        line-height: 65px;
+    
+    }
+    #busqueda{
+        background-color: rgb(233, 178, 126);
+        height: 155px;
+        width: 479px;
+        float: right;
+        margin-top:10px;
+    }
+    #busqueda h2{
+        text-align: center;
+      
+        line-height: 155px;
+    
+    }
+    #evento {
+        background-color: rgb(207, 106, 148);
+        height: 106px;
+        width: 479px;
+        float: right;
+        margin-top:10px;
+    }
+    #evento h2{
+        text-align: center;
+        
+        line-height: 106px;
+    
+    
+    }
+    footer{
+        background-color: rgb(130, 186, 231);
+        height: 100px;
+        width: 1266px;
+        float: right;
+        margin-top:10px;
+    
+    }
+    footer h2{
+        text-align: center;
+        line-height: 100px;
+    
+    }
+}
